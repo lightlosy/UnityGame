@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Singleton<T> : MonoBehaviour where T : new() {
+public class Singleton<T> where T : new() {
     private static T _instance;
     public static T GetInstance(){
         if(_instance == null){
@@ -10,7 +10,4 @@ public class Singleton<T> : MonoBehaviour where T : new() {
         }
         return _instance;
     }
-    // public Singleton () {
-    //     _instance = Singleton.GetInstance();
-    // }
 }

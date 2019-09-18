@@ -14,4 +14,15 @@ namespace NotificationArgs {
             this._msgName = s;
         }
     }
+
+    public class GameAssetArgs : EventArgs {
+        private GameObject _asset;
+        public GameObject asset {
+            get { return this._asset; }
+            set { this._asset = value; }
+        }
+        public GameAssetArgs(GameObject obj){
+            this._asset = obj;
+        }
+    }
 }

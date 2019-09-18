@@ -1,20 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using System;
-
-public class GameLaunch : MonoBehaviour
+using UnityEngine.SceneManagement;
+public class GameLoading : MonoBehaviour
 {
-    /** 摄像机 */
-    public Camera mainCamera;
-
-    /** 2D画布 */
-    public Canvas canvas2D;
     // Start is called before the first frame update
     void Start()
     {
-
+        Invoke("onLoadScene", 3.0f);
     }
 
     // Update is called once per frame
@@ -23,4 +16,7 @@ public class GameLaunch : MonoBehaviour
         
     }
 
+    void onLoadScene(){
+        SceneManager.LoadScene("GameScene");
+    }
 }
