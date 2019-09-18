@@ -6,8 +6,10 @@ using System;
 
 public class GameLaunch : MonoBehaviour
 {
+    /** 摄像机 */
     public Camera mainCamera;
-    /** Canvas */
+
+    /** 2D画布 */
     public Canvas canvas2D;
     // Start is called before the first frame update
     void Start()
