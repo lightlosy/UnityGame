@@ -57,6 +57,7 @@
   <ItemGroup>
      <Compile Include="Assets\Script\Core\MVCS\MVCS.cs" />
      <Compile Include="Assets\Script\Core\Notification\NotificationArgs.cs" />
+     <Compile Include="Assets\Script\Core\Singleton\Singleton.cs" />
      <Compile Include="Assets\Script\Game\GameLaunch.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/heidong/Documents/unity/UnityGameF/UnityGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
