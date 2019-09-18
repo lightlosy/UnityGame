@@ -1,18 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class UIManager : Singleton<UIManager>
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+// int w = 720;
+// int h = 1280;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+public class UIManager : Singleton<UIManager> {
+    private Canvas _root = new Canvas();
+    public UIManager(){
+        // this._root
     }
 }
