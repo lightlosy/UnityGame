@@ -11,6 +11,10 @@ public class AssetsManager : Singleton<AssetsManager>
             obj = this._assetsTable[path];
         }else{
             obj = Resources.Load<GameObject>(path);
+            if(!obj){
+                Debug.LogError("***** 没有找到资源:Reources/" + path + " *****");
+                return null;
+            }
             this._assetsTable.Add(path, obj);
         }
         return obj;

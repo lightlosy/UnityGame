@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class Game : MonoBehaviour
+public class GameLoading : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -11,6 +11,6 @@ public class Game : MonoBehaviour
     }
 
     void onLoadScene(){
-        SceneManager.LoadScene("BScene");
+        SceneManager.LoadScene("GameScene");
     }
 }
