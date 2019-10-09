@@ -62,10 +62,13 @@
      <Compile Include="Assets\Script\Core\MVCS\MVCS.cs" />
      <Compile Include="Assets\Script\Core\Notification\NotificationArgs.cs" />
      <Compile Include="Assets\Script\Core\Singleton\Singleton.cs" />
+     <Compile Include="Assets\Script\Game\Const\ConstDefine.cs" />
      <Compile Include="Assets\Script\Game\GameLaunch.cs" />
      <Compile Include="Assets\Script\Game\GameLoading.cs" />
+     <Compile Include="Assets\Script\Game\MainUI\MainUIView.cs" />
      <Compile Include="Assets\Script\Manager\AssetsManager\AssetsManager.cs" />
      <Compile Include="Assets\Script\Manager\Manager.cs" />
+     <Compile Include="Assets\Script\Manager\PathManager\PathManager.cs" />
      <Compile Include="Assets\Script\Manager\UIManager\UIManager.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/heidong/Documents/unity/UnityGameF/UnityGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

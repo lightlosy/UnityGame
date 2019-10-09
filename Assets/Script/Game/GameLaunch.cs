@@ -14,7 +14,7 @@ public class GameLaunch : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        UIManager.GetInstance().open("Prefabs/2d/MainUIView");
+        Manager.ui.open(Manager.path.getMainUIPrefab());
         // GameObject main = AssetsManager.GetInstance().LoadPrefab("Prefabs/2d/MainUIView");
         // GameObject view = GameObject.Instantiate(main);
         // view.transform.SetParent(this.canvas2D.transform, false);
