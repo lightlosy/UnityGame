@@ -59,12 +59,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Component\JoyStick\JoyStick.cs" />
      <Compile Include="Assets\Script\Core\MVCS\MVCS.cs" />
      <Compile Include="Assets\Script\Core\Notification\NotificationArgs.cs" />
      <Compile Include="Assets\Script\Core\Singleton\Singleton.cs" />
      <Compile Include="Assets\Script\Game\Const\ConstDefine.cs" />
      <Compile Include="Assets\Script\Game\GameLaunch.cs" />
      <Compile Include="Assets\Script\Game\GameLoading.cs" />
+     <Compile Include="Assets\Script\Game\MainUI\MainUIGame.cs" />
      <Compile Include="Assets\Script\Game\MainUI\MainUIView.cs" />
      <Compile Include="Assets\Script\Manager\AssetsManager\AssetsManager.cs" />
      <Compile Include="Assets\Script\Manager\Manager.cs" />

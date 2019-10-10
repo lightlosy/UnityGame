@@ -30,4 +30,11 @@ public class UIManager : Singleton<UIManager> {
         viewNode.transform.SetParent(parent.transform, false);
         viewNode.SetActive(true);
     }
+
+    public void close(string path){
+        GameObject viewNode = this._assetsTable[path];
+        if(viewNode){
+            viewNode.SetActive(false);
+        }
+    }
 }

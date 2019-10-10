@@ -11,6 +11,6 @@ public class GameLoading : MonoBehaviour
     }
 
     void onLoadScene(){
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene(Manager.path.getGameHomeScene());
     }
 }

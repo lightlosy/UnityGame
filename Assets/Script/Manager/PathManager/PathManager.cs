@@ -2,11 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/**
- * Resource目录下的路径
- */
 public class PathManager : Singleton<PathManager>
 {
+    /** ------------------预制件路径-------------------- */
     /** 主界面预制件 */
     public string getMainUIPrefab(){
         return "Prefabs/Game/MainUI/MainUIView";
@@ -14,5 +12,14 @@ public class PathManager : Singleton<PathManager>
     
     public string getMainUIGamePrefab(){
         return "Prefabs/Game/MainUI/MainUIGame";
+    }
+
+    /** ------------------场景路径-------------------- */
+    public string getGameHomeScene(){
+        return "GameHomeScene";
+    }
+    public string getGameMainScene()
+    {
+        return "GameMainScene";
     }
 }

@@ -233,7 +233,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 997536879084021361}
-        m_MethodName: OnBtnClick
+        m_MethodName: onBtnClick
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -364,7 +364,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 997536879084021361}
-        m_MethodName: OnBtnClick
+        m_MethodName: onBtnClick
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -495,7 +495,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 997536879084021361}
-        m_MethodName: OnBtnClick
+        m_MethodName: onBtnClick
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
